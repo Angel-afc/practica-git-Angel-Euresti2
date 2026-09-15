@@ -1,8 +1,11 @@
 Angel Gabriel Euresti Conde
 2630228
+Creació y sincronización de repositorios con Git y GitHub
 crear un repositorio local utilizando Git, sincronizarlo con un repositorio remoto en GitHub y comprobar el flujo de trabajo en ambos sentidos
 Repositorio local --GitHub
 GitHub --Repositorio local
+
+lo que ice fue praccticamente desde cero porque no estaba sincronizada la laptop, se utilizaron varios comandos para poder mover de una aplicacion a otra transformandolos en archivos especificos
 
 se utulizaron los siguientes comandos de git:
 git init . se usa para iniciar un repositorio de git en la ubicacion actual
@@ -15,13 +18,14 @@ git remote -v , se usa para ver si el repositorio local esta conectado con el re
 git push -u origin main . se usa para pasar los archivos del repositorio local al repositorio en git por primera vez
 git pull origin main se usa para descargar los cambios del repositorio de git al repositorio local
 
-tube que sincronizar mi cuenta de github con la yave ya que no me dejaba acceder a mi cuenta
+tube que sincronizar mi cuenta de github con la llave ya que no me dejaba acceder a mi cuenta
 
 el repositorio local se creo primero con un mkdir "nombre" y luego ya dentro de la carpeta se uso un git init, despues configure git y se configuro el nombre de la rama principal con git branch -M main
 
 primero se creo el repositorio en github y se copio su url, luego en el repositorio local se uso git remote add origin "url" y se verifico que estuvieran vinculados con git remote -v
 
-se modifico el archivo datos.txt y se uso el comando git status para despues usar el git add . para pasarlo a la zona de staging y se creo un nuevo commit con git commit -m "commit" para por ultimo usar un git push
+se modifico el archivo README.md y se uso el comando git status para despues usar el git add . para pasarlo a la zona de staging y se 
+creo un nuevo commit con git commit -m "commit" para por ultimo usar un git push y subirlo a github
 
 se modifico el archivo datos.txt y se realiza un commt desde github para despues descargarlo en el repositorio local con git pull
 
